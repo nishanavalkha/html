@@ -1,0 +1,236 @@
+.bg{
+    margin: 0 0 80px;
+    padding: 10px 15px 33px 17px;
+    z-index: -10;
+	background: url("web1.jpg");
+}
+.logo{
+	width: 175px;
+	height: 130px;
+	margin: 0 49px 190px 0;
+	float: left;
+}
+
+.border{
+	border:1px solid white;
+	border-radius: 26px;
+	color: white;
+}
+/* navigation bar*/
+
+.navbar{
+	display: flex;
+	justify-content: right;
+	align-items: center;
+}
+.navbar ul{
+	display:flex;
+	list-style: none;
+	margin: 20px 30px;
+}
+.navbar ul li{
+	font-family: century;
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 15px 18px;
+}
+.navbar ul li a{
+	color: white;
+}
+
+/* home section*/
+
+
+
+.m1{
+	font-size: 40px;
+	display: flex;
+	color: white;
+	margin-top: 170px;
+}
+h3{
+	font-size: 30px;
+	margin-left: 40px;
+	color: white;
+}
+.btn{
+	margin-left: 860px;
+	height: 40px;
+	width:200px;
+	margin-top: 80px;
+	background-color: #006072;
+	color: white;
+	font-size: 20px;
+
+	justify-content: center;
+	border: 1px solid white;
+	border-radius: 20px;
+}
+.m2{
+	margin-top: 10rem;
+	padding-left: 500px;
+	display: block;
+	color: white;
+	font-size: 20px;
+}
+.icon{
+	float: left;
+	width: 70px
+	height: 60px;
+}
+.icon img{
+	margin-left: 44px;
+	margin-bottom: 1rem;
+
+}
+.arrow{
+	margin-top: 30px;
+	float: left;
+	margin-left: 50px;
+	margin-right: 40px;
+}
+.m3{
+	display: block;
+	padding-top: 200px;
+	margin-left: 1000px;
+	margin-top: 60px;
+}
+
+.m4{
+	margin-top: 40px;
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+.whyhelperland {
+    margin-top: 80px;
+}
+.whyhelperland-option {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.whyhelperland-heading.row {
+    text-align: center;
+    margin-top: 20px;
+    height: 100px;
+    font-size: 20px;
+
+}
+.col-md-1{
+	margin-top: 12px;
+	margin-left: 200px;
+	padding-top: 0px;
+	font-size: 20px;
+}
+.col-md-3{
+	margin-right: 30px;
+	padding-left: 80px;
+	font-size: 20px;
+}
+.three-photo{
+	margin-top: 120px;
+	padding-left: 70px;
+}
+.three-photo-contain{
+	margin-top: 30px;
+	font-size: 20px;
+}
+.col-md-6{
+	font-size: 20px;
+
+}
+.card-img-top{
+	margin-right: 70px;
+
+}
+.get{
+	text-align: center;
+	font-size: 30px;
+	font-style: bold;
+	margin-top: 50px;
+}
+.mail{
+	
+	display: flex;
+	border: 1px solid black;
+	border-radius: 26px;
+	
+	
+}
+.mail ul{
+	margin: 10px 7px;
+}
+.mail ul li{
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 12px;
+}
+.rec{
+	width: 2010px;
+	 height: 193px;
+	 margin: 58px 0 0;
+	 padding: 30px 0 0;
+     background-color: #111;
+}
+.logo1{
+	width: 7px;
+	height: 3px;
+	margin: 0 7px 9px 2px;
+	object-fit: contain;
+}
+.navbar1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.navbar1 ul{
+	display:flex;
+	list-style: none;
+	margin: 0 4px;
+
+}
+.navbar1 ul li{
+	font-size: 20px;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	padding: 20px 30px;
+}
+.navbar1 ul li a{
+	color: white;
+}
+h4{
+	color:black;
+}
+.newslatter {
+    padding-top: 4px;
+    padding-left: 70px;
+    margin-left: 80px;
+   
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.newslatter input {
+	display: inline;
+    padding-left: 0;
+    padding-right: 0;
+    background: #F4F5F8 0% 0% no-repeat padding-box;
+    border: 1px solid #565656;
+    border-radius: 20px;
+    left:200px;
+    width: 300px;
+    height: 40px;
+}
+.para{
+	background-color: #292929;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 65px;
+}
