@@ -1,0 +1,157 @@
+.img-fluid{
+	width: 60px;
+	height: 50px;
+	padding: 6px 15px 5px;
+	
+}
+
+/* nav bar*/
+.book{
+	background-color: #006072;
+	color: white;
+	border: 1px solid white;
+	border-radius: 30px;
+	margin-right: 5px;
+	
+}
+.books{
+	color: white;
+	border:1px solid white;
+	border-radius: 30px;
+}
+
+
+.navbar{
+	
+	justify-content: right;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+.navbar ul{
+	display:flex;
+	list-style: none;
+    margin-top: 2px;
+
+ 
+}
+.navbar ul li{
+	
+	font-size: 15px;
+	font-weight: normal;
+	text-decoration: none;
+	padding-left: 30px;
+
+}
+.navbar ul li a{
+	color: white;
+
+
+}
+img{
+	width: 1500px;
+	height: 330px;
+	object-fit: cover;
+}
+.FAQ{
+	text-align: center;
+	color: #4f4f4f;
+	font-weight: 450;
+	font-size: 33px;
+	margin-top: 35px;
+}
+.raw{
+	text-align: center;
+}
+.para{
+	margin-top: 20px;
+	justify-content: center;
+	font-family: roboto;
+	font-size: 19px;
+	text-align: center;
+	color: #646464;
+}
+
+.box{
+	text-align: center;
+	margin-top: 30px;
+	font-size: 20px;
+	justify-content: center;
+	font-family: roboto;
+	font-style: normal;
+}
+.para1 img{
+	margin-left: 30px;
+	margin-top: 20px;
+	padding-left:190px;
+	width: 17px;
+	height: 17px;
+}
+.news{
+	padding-top: 20px;
+	padding-left: 200px;
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+}
+.news input {
+	display: inline;
+    padding-left: 20px;
+    padding-right: 0;
+    margin-left: -20px;
+    background: #F4F5F8 0% 0% no-repeat padding-box;
+    border: 1px solid #565656;
+    border-radius: 20px;
+    left:200px;
+    width: 200px;
+    height: 35px;
+}
+.rec{
+	background-color: black;
+	width: 1600px;
+	height: 160px;
+}
+.logo{
+	
+	padding: 15px 200px 30px 70px;
+	object-fit: contain;
+
+}
+.navbar1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+}
+.navbar1 ul{
+	display: flex;
+	list-style: none;
+
+}
+.navbar1 ul li{
+	font-size: 15px;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	padding: 0 25px 0 25px;
+}
+.navbar1 ul li a{
+	color: white;
+}
+p{
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+.padded{
+	margin-top: 14px;
+	color: black;
+
+}
+.ul-li{
+
+	padding-top: 10px;
+	list-style-image: url("assets/right-arrow.png");
+	text-align: left;
+}
