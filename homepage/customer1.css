@@ -1,0 +1,279 @@
+.block{
+	width: 1370px;
+	height: 64px;
+	background-color: #525252;
+	opacity: 0.8;
+}
+*{
+	margin:0px;
+	padding: 0px;
+}
+.logo{
+	width: 73px;
+    height: 54px;
+    margin: 6px 857px 0 10px;
+}
+.logo1{
+	display:inline-flex;
+	margin-left: 50px;
+}
+.navbar{
+	display: flex;
+	justify-content: right;
+	margin-top: -50px;
+	margin-left: 70px;
+}
+.navbar ul{
+	display:flex;
+	list-style: none;
+
+}
+.navbar ul li{
+	
+	font-size: 18px;
+	padding-left: 30px;
+}
+.navbar ul li a{
+	 font-family: roboto;
+  font-weight: normal;
+  text-decoration: none;
+  color: white;
+  font-style: normal;
+  line-height: 1.41;
+  letter-spacing: normal;
+  text-align: right;	
+}
+.border{
+	padding: 10px 20px 10px 20px;
+	border:1px solid white;
+	border-radius: 30px;
+	background-color: #29626d;
+
+}
+.notification{
+	text-decoration: none;
+	display: inline-block;
+	position: relative;
+}
+.notification:hover{
+	background-color: black;
+}
+.notification .badge{
+	position: absolute;
+	border-radius: 30%;
+	margin-left: -10px;
+	width: 18px;
+  height: 18px;
+  
+	background-color: red;
+	color: white;
+}
+.rectangle{
+	width: 1366px;
+	height: 100px;
+	background-color:  #f9f9f9;
+	margin-top: 1px;
+	padding-top: 30px;
+}
+.Welcome-Gaurang {
+	margin-left: 600px;
+	width: 237px;
+  	height: 20px;
+  	font-family: Roboto;
+    font-size: 30px;
+    color: #4f4f4f;
+
+ }
+  .text-style-1{
+ 	font-weight: bold;
+ }
+  .box1{
+ 	margin-left: 140px;
+ 	margin-top: 22px;
+ 	display:flex;
+ }
+.navbar1{
+	width:240px; 
+	height: 950px;
+	background-color:#1d7a8c;
+
+}
+.navbar1 a{
+	display: block;
+	color: white;
+	font-size: 18px;
+	width: 100%;
+	opacity: 0.2
+	padding-top:10px;
+	line-height: 3.06;
+	height: 60px;
+	padding-left: 20px;
+	border-bottom: 1px solid white;
+	border-top:0 solid white;
+	box-sizing: border-box;
+}
+a:hover{
+	color: #b93632;
+}
+h2{
+	margin-left: 15px;
+	margin-top: -15px;
+	color: #646464;
+
+}
+.box2{
+	width:847px;
+    height: 870px;
+    border:1px solid #e1e1e1;
+    background-color: white;
+   margin-top: 40px;
+   margin-left: -140px;
+ 
+}
+.table-container{
+	margin: -2px;
+	padding: -1px;
+}
+.table{
+	
+	border-collapse: collapse;
+}
+.table thead{
+	width: 830px;
+  height: 40px;
+  background-color: #f9f9f9;
+  border-top: 1px solid #f9f9f9;
+
+}
+.table thead tr th{
+	padding-left: 25px;
+	padding-right: 36px;
+  opacity: 0.5;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.64;
+  color: #646464;
+}
+
+.table tbody tr td{
+	width: 219px;
+	height: 30px;
+	font-size: 15px;
+	padding-left: 20px;
+	color: #646464;
+	font-weight: normal;
+	line-height: 1.5;
+	border-bottom: 1px solid #e1e1e1;
+	border-top: 1px solid #e1e1e1;
+}
+.sum img{
+	border: 1px solid #646464;
+	border-radius: 50px;
+	width: 30px;
+	height: 30px;
+	padding: 8px 8px 8px 8px;
+}
+.sum{
+	display: inline-flex;
+}
+h4{
+	color: #646464;
+	margin-top: -1.5px;
+}
+.star img{
+	margin-left: 30px;
+}
+.but{
+	width: 100px;
+	height: 30px;
+	background-color: #67b644;
+	color: white;
+	border: 1px solid #67b644;
+}
+.but1{
+	width: 88px;
+	height: 35px;
+	border-radius: 17px;
+	background-color: #6da9b5;
+	color: white;
+}
+.last{
+	display: inline-flex;
+}
+
+.show1{
+	display: inline-flex;
+	margin-left: 400px;
+	font-size: 16px;
+	color: #646464;
+}
+.box{
+	border: 1px solid #646464;
+	margin-left: 5px;
+	height: 20px;
+	width: 40px;
+}
+.box img{
+	padding-left: 5px;
+}
+.navbar2{
+	display: flex;
+	text-decoration: none;
+	list-style: none;
+	margin-left: 380px;
+}
+.navbar2 li{
+	margin-left: 10px;
+}
+.navbar2 li a{
+	text-decoration: none;
+	list-style: none;
+	color: grey;
+	border: 1px solid grey; 
+	border-radius: 120%;
+	padding: 4px 6px 4px 6px;
+}
+.footer{
+	width: 1350px;
+	height: 195px;
+	background-color: black;
+	margin-top: 20px;
+	
+
+}
+.f1 img{
+	 width: 100px;
+  height: 75px;
+  margin: 22px 220px 0px 90px;
+}
+.navbar3{
+	margin-left: 400px;
+	text-decoration: none;
+	list-style: none;
+	display: inline-flex;
+
+}
+.navbar3 li{
+
+	padding-right: 30px;
+
+}
+.navbar3 li a{
+	font-size: 14px;
+	color: white;
+	text-decoration: none;
+}
+.joint{
+	display: inline-flex;
+	padding-left: 200px;
+}
+p{
+	color: grey;
+	text-align: center;
+	align-items: center;
+	margin-top: 30px;
+	
+}
