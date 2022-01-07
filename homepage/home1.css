@@ -1,8 +1,7 @@
-.bg{
-    margin: 0 0 80px;
-    padding: 10px 15px 33px 17px;
-    z-index: -10;
-	background: url("web1.jpg");
+.head{
+	width: 2054px;
+	height:1020px;
+	background-image: url("assets/Landing-Page-background-image.png");
 }
 .logo{
 	width: 175px;
@@ -16,12 +15,17 @@
 	border-radius: 26px;
 	color: white;
 }
+.border:hover{
+	background-color: #006072;
+	display: block;
+}
 /* navigation bar*/
 
 .navbar{
 	display: flex;
 	justify-content: right;
 	align-items: center;
+
 }
 .navbar ul{
 	display:flex;
@@ -36,7 +40,10 @@
 	padding: 15px 18px;
 }
 .navbar ul li a{
-	color: white;
+	color: white;	
+}
+.navbar ul li a:hover{
+	background-color: #006072;
 }
 
 /* home section*/
@@ -55,9 +62,9 @@ h3{
 	color: white;
 }
 .btn{
-	margin-left: 860px;
-	height: 40px;
-	width:200px;
+	margin-left: 900px;
+	
+	padding: 15px 14px 12px 15px;
 	margin-top: 80px;
 	background-color: #006072;
 	color: white;
@@ -91,10 +98,12 @@ h3{
 	margin-right: 40px;
 }
 .m3{
-	display: block;
-	padding-top: 200px;
-	margin-left: 1000px;
-	margin-top: 60px;
+	width: 30px;
+	height: 20px;
+	margin-left: 940px;
+	margin-top: 40px;
+	
+	
 }
 
 .m4{
@@ -106,18 +115,29 @@ h2{
 }
 .whyhelperland {
     margin-top: 80px;
+
+}
+.whyhelperland h2{
+	font-weight: bold;
 }
 .whyhelperland-option {
     margin-top: 80px;
     text-align: center;
+    display: inline-flex;
 }
 
 .whyhelperland-heading.row {
     text-align: center;
     margin-top: 20px;
     height: 100px;
-    font-size: 20px;
+    font-size: 30px;
+    display: inline-flex;
 
+}
+.lore{
+	font-size: 28px;
+	color: grey;
+	font-weight: bold;
 }
 .col-md-1{
 	margin-top: 12px;
@@ -130,44 +150,56 @@ h2{
 	padding-left: 80px;
 	font-size: 20px;
 }
+
 .three-photo{
-	margin-top: 120px;
-	padding-left: 70px;
+	margin-top: 180px;
+	padding-left: 170px;
+
 }
 .three-photo-contain{
-	margin-top: 30px;
-	font-size: 20px;
+	margin-top: 10px;
+	font-size: 24px;
 }
 .col-md-6{
-	font-size: 20px;
+	font-size: 24px;
+	color: grey;
+	margin-left: -390px;
 
 }
 .card-img-top{
 	margin-right: 70px;
 
 }
-.get{
-	text-align: center;
+.card-deck{
+	display: inline-flex;
+	margin-top: 40px;
+	margin-left: 200px;
+}
+.blog{
 	font-size: 30px;
-	font-style: bold;
-	margin-top: 50px;
-}
-.mail{
-	
-	display: flex;
-	border: 1px solid black;
-	border-radius: 26px;
-	
-	
-}
-.mail ul{
-	margin: 10px 7px;
-}
-.mail ul li{
-	font-size: 25px;
+	margin-top: 30px;
 	font-weight: bold;
-	text-decoration: none;
-	padding: 10px 12px;
+	margin-left: 930px;
+	color: grey;
+
+}
+
+.newsletter{
+	margin: 30px 0 20px 900px;
+	font-weight: bold;
+	color: #646464;
+	font-size: 22px;
+}
+.inline{
+	display: inline-flex;
+}
+.but{
+	background-color: red;
+	color: white;
+	font-weight: bold;
+	border:1px solid red;
+	border-radius: 26px;
+	padding: 12px 18px 12px 17px;
 }
 .rec{
 	width: 2010px;
