@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin service requests</title>
+	<meta charset="utf-8">
+	
+	<link rel="stylesheet" type="text/css" href="admin1.css">
+	<link rel="stylesheet"  href="http://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet"  href="http://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel=stylesheet>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+	<div class="header">
+		<div class="help">
+			<span class="helperland"> helperland </span>
+			<nav class="navbar">
+				<li><a href="#"><img src="assets\admin-user.png"></a></li>
+				<li><a href="#" class="james-smith">James Smith</a></li>
+				<li><a href="#"><img src="assets\logout.png"></a></li>
+			</nav>
+		</div>
+	</div>
+
+	<div class=" box">
+		<div class="box1">
+		<nav class="nav">
+				
+				<a href="#" class="req" style="color: #1fb6ff;">Service Requests</a>
+				<a href="#">User Management</a>
+				
+		</nav>
+		</div>
+			<div class="para">Service Requests</div>
+				<div class="box2">
+					<div class="one">
+					<input type="id" name="" placeholder="Service ID">
+					<input type="code" name="" placeholder="Postal Code">
+					<input type="email" name="" placeholder="Email">
+
+											<select class="first" aria-label=" ">
+                                                <option selected>Select Customer</option>
+                                                <option value="1">Type1</option>
+                                                <option value="2">Type2</option>
+                                                <option value="3">Type3</option>
+                                            </select>
+
+                                            <select class="first" aria-label=" ">
+                                                <option selected>Select Service Provider</option>
+                                                <option value="1">Type1</option>
+                                                <option value="2">Type2</option>
+                                                <option value="3">Type3</option>
+                                            </select>
+
+                                            <select class="first" aria-label=" ">
+                                                <option selected>Select Status</option>
+                                                <option value="1">Type1</option>
+                                                <option value="2">Type2</option>
+                                                <option value="3">Type3</option>
+                                            </select>
+
+                                            <select class="first" aria-label=" ">
+                                                <option selected>SP Payment Status</option>
+                                                <option value="1">Type1</option>
+                                                <option value="2">Type2</option>
+                                                <option value="3">Type3</option>
+                                            </select>
+
+                                         <div class="tab">
+                                           <div class="check"> <input type="checkbox" class="val1" style="height: 16px;width: 20px; margin: 22px 0 0 24px; "  > Hass Issue</div>
+
+                                           <input type="date" placeholder="from date">
+                                            <input type="date" name="from date"value="to date">
+                     					
+                     						<input type="button" name="but" value="Search" style=" width: 80px;height: 40px; background-color: #1fb6ff;color: white;font-size: 16px;border-radius: 6px; border:1px solid #dedddd; " >
+
+                     						<input type="button" value="Clear" style="width: 80px;height: 40px;background-color: white;color: #a0a0a0; border-radius: 6px; border: 1px solid #dedddd; font-size: 16px;">
+                     					 </div>
+
+                      <div class="box3">
+                     	<div class="table-container">
+                     		<table class="table">
+                     			<thead>
+                     				<tr>
+                     					<th>Service ID</th>
+                     					<th>Service date</th>
+                     					<th>Customer details</th>
+                     					<th>Service provider</th>
+                     					<th>Status</th>
+                     					<th>Actions</th>
+                     				</tr>
+                     			</thead>
+
+                     			<tbody>
+                     				<tr>
+                     					<td data-label="Service ID">3472</td>
+                     					<td data-label="Service date">
+                     					 		<img src="assets\calendar2.png">09-04-2018<br>
+                     					 		<img src="assets\layer-712.png">12:00-18:00
+                     					</td>
+                     					 	
+
+                     					<td data-label="Customer details">Demo test <br>
+                     					 		 <img src="assets\layer-719.png">test 11<br>
+                     					 		 9898 tambach-<br>dietharz
+                     					</td>
+                     					<td data-label="Service provider"></td>
+                     					<td data-label="Status"><button class="but">New</button> </td>
+                     					<td data-label="Actions">
+                     						<ul>
+													<li><a href="#" class="dot"><img src="assets\group-38.png"></a>
+														<ul>
+															<div class="hello"><li><a href="#">Edit & Reschedule</a></li>
+																<li><a href="#">Cancel SR by Cust</a></li>
+																<li><a href="#">Inquiry</a></li>
+																<li><a href="#">History Log</a></li>
+																<li><a href="#">Download Invoice</a></li>
+																<li><a href="#">Other Transactions</a></li>
+															</div>
+														</ul>
+
+													</li>
+												</ul>	
+                     					</td>
+                     				</tr>
+
+
+                     				<tr>
+                     					<td data-label="Service ID">3472</td>
+                     					<td data-label="Service date">
+                     					 		<img src="assets\calendar2.png">09-04-2018<br>
+                     					 		<img src="assets\layer-712.png">12:00-18:00
+                     					</td>
+                     					 	
+
+                     					<td data-label="Customer details">Demo test <br>
+                     					 		 <img src="assets\layer-719.png">test 11<br>
+                     					 		 9898 tambach-<br>dietharz
+                     					</td>
+                     					<td data-label="Service provider"></td>
+                     					<td data-label="Status"><button class="but">New</button> </td>
+                     					<td data-label="Actions">
+                     						<ul>
+													<li><a href="#" class="dot"><img src="assets\group-38.png"></a>
+														<ul>
+															<div class="hello"><li><a href="#">Edit & Reschedule</a></li>
+																<li><a href="#">Cancel SR by Cust</a></li>
+																<li><a href="#">Inquiry</a></li>
+																<li><a href="#">History Log</a></li>
+																<li><a href="#">Download Invoice</a></li>
+																<li><a href="#">Other Transactions</a></li>
+															</div>
+														</ul>
+
+													</li>
+												</ul>	
+                     					</td>
+                     				</tr>
+
+                     				<tr>
+                     					<td data-label="Service ID">3472</td>
+                     					<td data-label="Service date">
+                     					 		<img src="assets\calendar2.png">09-04-2018<br>
+                     					 		<img src="assets\layer-712.png">12:00-18:00
+                     					</td>
+                     					 	
+
+                     					<td data-label="Customer details">Demo test <br>
+                     					 		 <img src="assets\layer-719.png">test 11<br>
+                     					 		 9898 tambach-<br>dietharz
+                     					</td>
+                     					<td data-label="Service provider"></td>
+                     					<td data-label="Status"><button class="but">New</button> </td>
+                     					<td data-label="Actions">
+                     						<ul>
+													<li><a href="#" class="dot"><img src="assets\group-38.png"></a>
+														<ul>
+															<div class="hello"><li><a href="#">Edit & Reschedule</a></li>
+																<li><a href="#">Cancel SR by Cust</a></li>
+																<li><a href="#">Inquiry</a></li>
+																<li><a href="#">History Log</a></li>
+																<li><a href="#">Download Invoice</a></li>
+																<li><a href="#">Other Transactions</a></li>
+															</div>
+														</ul>
+
+													</li>
+												</ul>	
+                     					</td>
+                     				</tr>
+
+                     				<tr>
+                     					<td data-label="Service ID">3472</td>
+                     					<td data-label="Service date">
+                     					 		<img src="assets\calendar2.png">09-04-2018<br>
+                     					 		<img src="assets\layer-712.png">12:00-18:00
+                     					</td>
+                     					 	
+
+                     					<td data-label="Customer details">Demo test <br>
+                     					 		 <img src="assets\layer-719.png">test 11<br>
+                     					 		 9898 tambach-<br>dietharz
+                     					</td>
+                     					<td data-label="Service provider"></td>
+                     					<td data-label="Status"><button class="but">New</button> </td>
+                     					<td data-label="Actions">
+                     						<ul>
+													<li><a href="#" class="dot"><img src="assets\group-38.png"></a>
+														<ul>
+															<div class="hello"><li><a href="#">Edit & Reschedule</a></li>
+																<li><a href="#">Cancel SR by Cust</a></li>
+																<li><a href="#">Inquiry</a></li>
+																<li><a href="#">History Log</a></li>
+																<li><a href="#">Download Invoice</a></li>
+																<li><a href="#">Other Transactions</a></li>
+															</div>
+														</ul>
+
+													</li>
+												</ul>	
+                     					</td>
+                     				</tr>
+
+                     			</tbody>
+
+                     		</table>
+                     	</div>
+                     	</div>
+
+                     		<div class="last">
+										<div class="show">Show 
+											<select class="fi">
+                                                <option selected>10</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                            </select>
+                                            Entries  
+                                        </div>
+                                            	
+                                            	<div class="block">
+                                            		<a href="#">&laquo;</a>
+                                            		<a href="#" class="act">1</a>
+                                            		<a href="#">2</a>
+                                            		<a href="#">3</a>
+                                            		<a href="#">4</a>
+                                            		<a href="#">5</a>
+                                            		<a href="#">&raquo;</a>
+
+                            </div>
+                    </div>
+                    <p>@2018 Helperland. All rights reserved.</p>
+				</div>
+
+
+</body>
+</html>
