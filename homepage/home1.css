@@ -94,12 +94,11 @@ text-decoration: none;
 
 }
 .nav_btn{
-width: 161px;
-height : 40px ;
+
 color: white;
 border: 1px solid #FFFFFF80;
 border-radius: 40px;
-margin: 12px 7px 12px 7px;
+
 font-size: 17px;
 background-color: #006072;
 }
@@ -184,14 +183,21 @@ border-radius: 40px;
 }
 .customer{
 	margin-left: 105px;
+	display: flex;
 }
  .col-lg-3{ 
 	margin: 22px;
 	border-left: 5px solid #1d7a8c;
 	background-color: white;
 }
+.h{
+	text-align: center;
+	color: grey;
+	margin-top: 15px;
+
+}
 .newsletter{
-	margin-left: 380px;
+	text-align: center;
 	margin-top: 24px;
 	margin-bottom: 23px;
 }
@@ -217,15 +223,13 @@ margin-left: 11px;
 
 .footer{
 	background-color: #111111;
-
-
 }
 .nn{
 	display: flex;
 }
 .footer ul{
-	margin-left: 150px;
-	margin-top: 24px;
+	margin-left: 330px;
+	margin-top: -40px;
 	display: inline-flex;
 }
 .footer ul li a{
@@ -233,13 +237,119 @@ margin-left: 11px;
 	display: inline-flex;
 	color: white;
 }
-
-.social-media{
-	text-align: center;
-	display: flex;
-	margin: auto;
+.last{
+	margin-left: 170px;
+	margin-top: -30px;
 }
+
   
 
 
 
+/*media quaries*/
+
+@media(max-width: 512px){
+	
+	.logo1{
+		margin-left: 120px;
+		width: 30px;
+		height: auto;		
+	}
+	#navbar ul{
+		margin-top: 44px;
+	}
+	#navbar ul li{
+		display: block;
+		margin-left: -180px;
+		overflow: hidden;
+	}
+	#navbar ul li a{
+		
+		font-size: 13px;
+		overflow: hidden;
+		
+		
+	}
+	#navbar{
+		height: auto;
+		overflow: hidden;
+		
+	}
+	.nav_btn{
+		
+		font-size: 13px;
+	}
+	.banner{
+		height: auto;
+		width: 800px;
+		box-sizing: border-box;
+	}
+	.container1{
+	margin-top: 280px;
+	margin-left: 4px;
+}
+	.book_btn{
+	height : 30px ;
+	line-height: 30px;
+	display: block;
+	width: 150px;
+	margin-left: 150px;
+	color: white;
+	margin-top: 20px;
+	font-size: 12px;
+	
+}
+	h1{
+		font-size: 19px;
+	}
+	p{
+		font-size: 15px;
+	}
+	.main-container{
+		height: auto;
+		width: 100%;
+		box-sizing: border-box;
+	
+	}
+	.pp{
+		display: block;
+		margin-left: -250px;
+		margin-top: 60px;
+	}
+	.row img{
+		margin-left: -210px;
+	}
+	.helper-row{
+	margin-top: 40px;
+	display: block;
+	}
+	.helper-col img{
+	width: 100%;
+	height: auto;
+    
+	}
+	.row1{
+		display: block;
+	}
+	.row-blog{
+		display: block;
+	}
+	.customer{
+	display: block;
+	}
+	.col{
+		margin-left: 130px;
+	}
+	.nn{
+		display: block;
+	}
+	.footer img{
+		margin-left: 30px;
+	}
+	
+	.footer ul{
+	margin-left: 50px;
+	display: block;
+	margin-top: 6px;
+	}
+}
