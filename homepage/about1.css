@@ -1,49 +1,92 @@
-.bg{
-	width: 1360px;
-	height: 66px;
-	background-color: #525252;
+*{
+	margin: 0;
+	padding: 0;
 }
+
+header{
+	
+	background-color: #525252;
+	width: 1500px;
+	height: 80px;
+	position: fixed;
+}
+.logo1 img{
+	width: 70px;
+	height: 66px;
+	padding: 9px 0 5px 5px;
+}
+/* nav bar*/
 .navbar{
+	overflow: hidden;
+	position: fixed;
+	height: 70px;
+	width: 1000px;
+	margin-top:-50px;
 	justify-content: right;
-	display: flex;
+	
+	margin-left: 500px;
 	align-items: center;
 
 }
 .navbar ul{
 	display: flex;
-	padding-right: 85px;
-	margin-top: -60px;
-
-
+	
+	
 }
 .navbar ul li{
-	font-size: 15px;
+	
 	font-family: roboto;
 	font-weight: normal;
-	padding-left: 36px;
+	margin-left: 16px;
 	color: white;
-	margin: 0 7px 0 7px;
-	padding: 0 7px 0 7px;
+	text-decoration: none;
+	list-style: none;
+	
 }
 .navbar ul li a{
 	color: white;
+	text-decoration: none;
+	list-style: none;
+	font-size: 14px;
+	padding: 6px 10px 8px 10px;
+	font-weight: normal;
+	font-family: normal;
+	text-decoration: none;
+	list-style: none;
+	margin: 4px 5px 9px 9px;
+	
 }
+
+
+
 .book{
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	width: 120px;
-	height:30px;
+
 	background-color: #006072;
 	border: 1px solid white;
 	border-radius: 30px;
 	padding-right: 10px;
-	padding-top: 8px;
+	
+}
+.book:hover{
+	background-color: black;
+	display: block;
 }
 .books{
 	border: 1px solid white;
 	border-radius: 30px;	
 }
+.books:hover{
+	background-color: black;
+	display: block;
+}
+
+.simple:hover{
+	background-color: black;
+
+}
+
+
+
 img{
 	width: 1360px;
 	height: 330px;
@@ -56,7 +99,7 @@ img{
 	font-weight: bold;
 	width: 400px;
 	height: 25px;
-	margin: 20px 0 0 650px;	
+	
 }
 .l1{
 	margin-top: 30px;
@@ -77,10 +120,10 @@ img{
 	font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-     line-height: 1.5;
-  letter-spacing: normal;
-  text-align: center;
-  color: #646464;
+    line-height: 1.5;
+  	letter-spacing: normal;
+  	text-align: center;
+  	color: #646464;
 }
 .lol{
 	margin-top: 25px;
@@ -89,37 +132,34 @@ img{
 	font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-     line-height: 1.5;
-  letter-spacing: normal;
-  text-align: center;
-  color: #646464;
+    line-height: 1.5;
+  	letter-spacing: normal;
+  	text-align: center;
+  	color: #646464;
 }
-.news{
-	padding-top: 20px;
-	padding-left: 600px;
-	color: black;
-	font-size: 16px;
-	font-weight: bold;
 
-}
-.news input {
-	display: inline;
-    padding-left: 10px;
-    padding-right: 0;
-    margin-left: -20px;
-    background: #F4F5F8 0% 0% no-repeat padding-box;
-    border: 1px solid #565656;
-    border-radius: 20px;
-    left:100px;
-    width: 200px;
-    height: 40px;
-}
-h4{
-	font-weight: 500;
-	font-size: 18px;
-	padding-left: 60px;
+ 	
+.news h4{
 	color: #353548;
+	font-size: 14px;
+	margin-left: 570px;
+	margin-top: 60px;
 }
+.inline{
+	display: inline-flex;
+}
+.but{
+	background-color: #ff7b6d;
+	color: white;
+	font-size: 12px;
+	margin-left: 20px;
+	font-weight: bold;
+	border:1px solid #ff7b6d;
+	border-radius: 26px;
+	width: 100px;
+	height: 30px;
+}
+
 
 .rec{
 	width: 1350px;
@@ -128,10 +168,10 @@ h4{
 	margin-top: 30px;
 }
 .pic1 img{
-	width: 70px;
-	height: 60px;
+	width: 150px;
+	height: 83px;
 	padding-top: 15px;
-	padding-left: 60px;
+	padding-left: 80px;
 }
 .navbar1{
 	display: flex;
@@ -141,7 +181,7 @@ h4{
 .navbar1 ul{
 	display: flex;
 	list-style: none;
-	margin-left: 100px;
+	margin-left: 170px;
 }
 
 .navbar1 ul li{
@@ -149,23 +189,105 @@ h4{
 	font-weight: normal;
 	font-style: normal;
 	text-decoration: none;
-	padding: 0 20px 0 20px;
-	padding-left: 20px;
-	margin-top: -65px;
+	list-style: none;
+	margin-top: -50px;
+	padding-right: 20px;
+	padding-left: 24px;
+	
 }
 .navbar1 ul li a{
 	color: white;
 }
-.navbar1 img{
-	margin-left: -80px;
-	padding-left: 100px;
-}
+
 .rec h3{
 	 color:#737381;
 	margin-top: -4px;
 	color: white;
-	padding-left: 290px;
+	padding-left: 500px;
 	font-size: 16px;
 	font-family: normal;
 	font-style: normal;
+}
+.getmail{
+	margin-left: 525px;
+}
+
+
+
+/* media quaries*/
+
+@media (max-width: 400px){
+	header{
+		width: 100%;
+		height:auto;
+		display: block;
+	}
+	.logo1 img{
+	width: 42px;
+	height: 43px;
+	}
+	.navbar{
+	margin-left: 100px;
+	height: auto;
+	margin-top:-33px;
+	
+	}
+	.navbar ul{
+	display: block;
+	overflow: hidden;
+	height: auto;
+	}
+
+	img{
+		width:600px;
+	height: 400px;
+	display: block;
+	}
+	.era{
+		margin-left: -500px;
+		font-size: 12px;
+	}
+	.raw{
+		height: 4px;
+		width: 20%;
+	}
+	.l1 {
+		margin-left: 15px;
+	}	
+	.l2{
+		margin-left: 15px;
+	}
+	.lol{
+		margin-left: 15px;
+	}
+	.news h4{
+		color: #353548;
+		font-size: 17px;
+		margin-left:130px;
+		margin-top: 60px;
+	}
+	.getmail{
+		margin-left: 50px;
+		
+	}
+	.pic1 img{
+			margin-left: -40px;
+	}
+
+	.navbar1{
+			margin-left: 10px;
+			display: block;
+	}
+	
+			
+	.navbar1 ul li{
+				font-size: 15px;
+				display: block;
+				margin-left: -30px;
+				}
+			
+	.rec h3{
+	 	
+		padding-left: 50px;
+	}
 }
