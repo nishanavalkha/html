@@ -4,79 +4,113 @@
 	<title>Contact page</title>
 	<meta charset="utf-8">
 	<meta name="viewport"content="width-device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="contact1.css">
+	<link rel="stylesheet" type="text/css" href="contact1.css"><!-- 
+    <link rel="stylesheet"  href="http://maxcdn.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css">
+    <link rel="stylesheet"  href="http://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--<link rel="stylesheet"  href="http://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">   
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel=stylesheet>-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-	<header>
-		<div class="img-fluid container-fluid bg">
-			<img src="logo-large.png" class="logo img-fluid" style="width: 70px;height: 50px; padding: 6px 0 10px 9px;" >
-			<nav class="navbar">
-				 <ul>
-                	<li class="book" > Book now </li>
-                	<li class="books"> Prices & services  </li>
-                	<li><a href=""> Warranty </a></li>
-                    <li><a href=""> Blog </a></li>
-                    <li><a href=""> Contact </a></li>
-                	<li class="book" > Login </li>
-                	<li class="book" >Become a Helper <li>
-            	</ul>
-        	</nav>
+	
+     <header>
+        <div class="why">
+        <div class="logo1">
+            <img src="assets/logo-large.png" >
+            <nav class="navbar">
+                 <ul>
+                    <li><a href="#" class="book"> Book now</a> </li>
+                    <li><a href="#" class="books"> Prices & services </a> </li>
+                    <li><a href="#" class="simple"> Warranty</a> </li>
+                    <li><a href="#" class="simple"> Blog </a></li>
+                    <li><a href="#" class="simple"> Contact</a> </li>
+                    <li><a href="#" class="book"> Login </a></li>
+                    <li><a href="#" class="book">Become a Helper</a> <li>
+
+                 </ul>
+            </nav>
         </div>
+
+    </div>
     </header>
 
-<img src="assets\group-16_2.png">
 
+<img src="assets\group-16_2.png">
+<div class="primary">
 <div class="pri" style="margin-left: 640px;"> Contact us </div>
     <div class="raw" style="color: #ccc; margin-left: 660px; ">----- <img src="assets/separator.png" style="margin-top: 26px; width: 30px;  height: 20px; ">-----
     </div>
-
+</div>
 <div class="m2">
-<div class="logo1">
-    <div class="i1"> <img src="assets\forma-1_2.png" alt=" ">
-        <h3>1 1 1 1 Lorem ipsum text 100, <div class="i2" style="margin-left: 54px; margin-top: -20px;"> <br>  Lorem ipsum AB </h3>
-    </div>
-    </div>
-    <div class="i1"> <img src="assets\phone-call.png" alt=" " style="padding-left:85px;">
-      <div class="i3" style="margin-left: 130px;">  <h3> +49(40) 123 56 7890 <br> +49(40) 987 56 0000</h3></div>
-    </div>
+    <div class="logo1">
+        <div class="i1"> <img src="assets/forma-1_2.png"  alt=" ">
+            <h5> 1 1 1 1 Lorem ipsum text 100, <br> Lorem ipsum AB</h5>
+        </div>
 
-    <div class="i1"> <img src="assets\vector-smart-object.png" style="width: 40px; height: 36px; margin-left: 130px;">
-           <div class="i4" style="margin-left: 100px;"> <h3>info@helperland.com</h3></div>
-    </div>
+        <div class="i1"> <img src="assets/phone-call.png" style="margin-left:250px;" alt=" ">
+            <h5> +49(40) 123 56 7890 <br> +49(40) 987 56 0000</h5>
+        </div>
 
+        <div class="i1"> <img src="assets/vector-smart-object.png" style="margin-left: 250px;">
+            <h5>info@helperland.com</h5>
+        </div>
+    </div>
 </div>
-</div>
-   
 
 <div class="get" > Get in touch with us</div>
+        <div class="box">
+            <div class="b1">
+                <input type="text" name=" " placeholder="First name">
+                <input type="text" name=" " placeholder="Last name">
+            </div>
 
-<div class="box">
+            <div class="b22"><button>+49</button>
+
+                <input type="text" name=" " placeholder="Mobile number" style="width: 218px;">
+                <input type="text" name=" " placeholder="Email address">
+            </div>
+                <select class="first">
+                    <option selected>General</option>
+                        <option value="1">type1 </option>
+                        <option value="1">type2 </option>
+                        <option value="1">type3 </option>
+                        
+                    
+                </select>               
+                <input type="text" name=" " placeholder="Message" style="width: 544px; height: 80px; margin-top: 10px;">
+
+                <div class="file">
+                    <h4>Attachment</h4> <br>
+                        <form action="/action_page.php">
+                            <input type="file" class="upload" name="upload">
+                        </form>
+
+                     <div class="check"> <input type="checkbox" class="val1" value="term"> Our current ones apply Privacy Policy. I hereby agree  that my data entered into the contact form will be  stored electrocally 
+                     </div>
+
+
+                </div>
+
+                <button class="but"> Submit </button>
+        </div>
+
     
-    <div class="b1">
-        
-         <input type="text" style="width: 190px; height: 30px; border:1px solid black;" placeholder="First name">
-         <input type="text"style="width: 190px; height: 30px; border:1px solid black; " placeholder="Last name">
-    </div>
 
-    <div class="b2">
-        
-        <div class="b22" style="width: 44px;height: 30px; border:1px solid black; background-color: grey; ">+49</div>
-        <input type="text" style="width: 150px; height: 30px; border:1px solid black; margin-top: 10px;" placeholder="Mobile number">
-        <input type="text" style="width: 180px; height: 30px; border:1px solid black;" placeholder="Email address">
-    </div>
-        <input type="text" style="width: 390px; height: 30px; border:1px solid black; margin-top: 6px;" placeholder="Subject" >
-        <input type="text" style="width: 390px; height: 100px; border:1px solid black; margin-top: 10px;" placeholder="Message">
 
-</div>
-<button class="btn"> Submit </button>
 
 <div class="map" style="background-image: url('assets/group-16.png'); width:100%; height: 400px;background-repeat: none;">
     <img src="assets/pin.png" style="width: 30px; height: 40px;">
 </div>
 
 <div class="news">
-                    <h4>GET OUR NEWSLETTER</h4>
-                    <input type="email " placeholder="Your Email "><button class="btn btn-sm " style="background-color: #ff7b6d;color: white; border: 1px solid orange; border-radius: 20px; padding-left: 20px;margin-left: 15px;margin-top: -30px;">Submit</button>
+                    <p>SUBSCRIBE TO NEWSLETTER</p>
+                    <div class="type1"> 
+                            <input type="text" name="" placeholder="Your Email">
+                            <button> Submit</button>
+
+                    </div>
 </div>
 
 
@@ -84,21 +118,18 @@
     
     <div class="rec">
         
-        <div class="pic1">
-            <img src="assets/footer-logo.png">
-        </div>
 
          <nav class="navbar1">
             <ul>
+               <li><a href=""> <img src="assets/footer-logo.png"  style="width: 92px;
+                    height: 58px; margin-left: -280px;"></a></li>
                 <li><a href=""> HOME</a></li>
                 <li><a href=""> ABOUT</a></li>
                 <li><a href=""> TESTIMONIALS </a></li>
                 <li><a href=""> FAQS</a></li>
                 <li><a href=""> INSURANCE POLICY</a></li>
                 <li><a href=""> IMPRESSUM</a></li>
-                <li><img src="assets/ic-facebook.png" alt="face" style=" width:20px; height:20px; padding-right: -20px;margin-left: 100px; " class="img-fluid"></li>
-                <li><img src="assets/ic-instagram.png" alt="insta" style="height:20px; width:20px; padding-right: -20px;" class="img-fluid"></li>
-
+               
             </ul>
 
           </nav>
