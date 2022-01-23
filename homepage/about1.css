@@ -11,8 +11,8 @@ header{
 	position: fixed;
 }
 .logo1 img{
-	width: 70px;
-	height: 66px;
+	width: 76px;
+	height: 80px;
 	padding: 9px 0 5px 5px;
 }
 /* nav bar*/
@@ -21,10 +21,10 @@ header{
 	position: fixed;
 	height: 70px;
 	width: 1000px;
-	margin-top:-50px;
+	margin-top:-70px;
 	justify-content: right;
 	
-	margin-left: 500px;
+	margin-left: 405px;
 	align-items: center;
 
 }
@@ -47,7 +47,7 @@ header{
 	color: white;
 	text-decoration: none;
 	list-style: none;
-	font-size: 14px;
+	font-size: 17px;
 	padding: 6px 10px 8px 10px;
 	font-weight: normal;
 	font-family: normal;
@@ -198,7 +198,10 @@ img{
 .navbar1 ul li a{
 	color: white;
 }
-
+.navbar1 ul li:hover{
+	background-color: #006072;
+	border-radius: 30px;
+}
 .rec h3{
 	 color:#737381;
 	margin-top: -4px;
@@ -290,4 +293,5 @@ img{
 	 	
 		padding-left: 50px;
 	}
+
 }
