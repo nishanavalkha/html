@@ -1,57 +1,86 @@
-.img-fluid{
-	width: 60px;
-	height: 50px;
-	padding: 6px 15px 5px;
-	
+*{
+	margin:0;
+	padding: 0;
+	height: auto;
 }
-
+.why{
+	width: 1347px;
+	height: 80px;
+	position: fixed;
+	background-color: #525252;
+}
+.logo1 img{
+	width: 76px;
+	height: 80px;
+	padding: 9px 0 5px 5px;
+}
 /* nav bar*/
-.book{
-	background-color: #006072;
-	color: white;
-	border: 1px solid white;
-	border-radius: 30px;
-	margin-right: 5px;
-	
-}
-.books{
-	color: white;
-	border:1px solid white;
-	border-radius: 30px;
-}
-
-
 .navbar{
 	
-	justify-content: right;
-	display: flex;
+	margin-top: -53px;
+	
+	margin-left: 480px;
 	align-items: center;
-	text-align: center;
+
 }
 .navbar ul{
-	display:flex;
-	list-style: none;
-    margin-top: 2px;
-
- 
+	display: flex;
 }
 .navbar ul li{
 	
-	font-size: 15px;
+	font-family: roboto;
 	font-weight: normal;
+	margin-left: 16px;
+	color: white;
 	text-decoration: none;
-	padding-left: 30px;
-
+	list-style: none;
+	
 }
 .navbar ul li a{
 	color: white;
+	text-decoration: none;
+	list-style: none;
+	font-size: 17px;
+	padding: 6px 5px 6px 4px;
+	font-weight: normal;
+	font-family: normal;
+	text-decoration: none;
+	list-style: none;
+	margin: 6px 7px 9px 9px;
+	
+}
+.book{
 
+	background-color: #006072;
+	border: 1px solid white;
+	border-radius: 30px;
+	padding-right: 10px;
+	
+}
+.book:hover{
+	background-color: black;
+	display: block;
+}
+.books{
+	border: 1px solid white;
+	border-radius: 30px;	
+}
+.books:hover{
+	background-color: black;
+	display: block;
+}
+
+.simple:hover{
+	background-color: black;
 
 }
-img{
-	width: 1500px;
+
+
+
+.era img{
+	width: 1347px;
 	height: 330px;
-	object-fit: cover;
+	
 }
 .FAQ{
 	text-align: center;
@@ -73,48 +102,91 @@ img{
 }
 
 .box{
-	text-align: center;
-	margin-top: 30px;
-	font-size: 20px;
-	justify-content: center;
-	font-family: roboto;
-	font-style: normal;
+	display: inline-flex;
+	margin-left: 380px;
+	margin-top: 35px;
 }
-.para1 img{
-	margin-left: 30px;
-	margin-top: 20px;
-	padding-left:190px;
-	width: 17px;
-	height: 17px;
+.m1{
+	box-sizing: border-box;
+	border-collapse: collapse;
+	border:1px solid #006072;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	padding: 5px 30px 17px 40px;
+	background-color: #006072;
+	width: 350px;
+	height: 35px;
+}
+.m2{
+	box-sizing: border-box;
+	border-collapse: collapse;
+	border:1px solid #f6f6f6;
+	color: black;
+	text-align: center;
+	font-size: 18px;
+	padding: 5px 30px 17px 40px;
+	background-color: #f6f6f6;
+	width: 350px;
+	border-bottom: 5px solid #006072;
+	height: 35px;
+}
+.ul-li{
+	margin-left: 380px;
+}
+.padded{
+	font-size: 15px;
+	color: grey;
+	margin-top: 14px;
+	color: black;
 }
 .news{
 	padding-top: 20px;
-	padding-left: 200px;
-	color: black;
-	font-size: 16px;
+	padding-left: 600px;
+	color: #4f4f4f;
+	font-size: 20px;
 	font-weight: bold;
 }
-.news input {
-	display: inline;
-    padding-left: 20px;
-    padding-right: 0;
-    margin-left: -20px;
-    background: #F4F5F8 0% 0% no-repeat padding-box;
-    border: 1px solid #565656;
-    border-radius: 20px;
-    left:200px;
-    width: 200px;
-    height: 35px;
+.news h4{
+	font-size: 20px;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+.news input{
+	font-size: 11px;
+	border:1px solid black;
+	border-radius: 20px;
+	width: 180px;
+	color: white;
+	height: 36px;
+	margin-left: 50px;
+	padding-left: 16px;
+	padding-right: 10px;
+}
+.type1{
+	margin-top: 20px;
+	margin-left: -36px;
+}
+.type1 button{
+	background-color: #ff7b6d;
+	border:1px solid;
+	border-radius: 20px;
+	font-size: 11px;
+	width: 80px;
+	color: white;
+	height: 36px;
+	padding-left: 15px;
 }
 .rec{
+	margin-top: 30px;
 	background-color: black;
-	width: 1600px;
+	width: 1347px;
 	height: 160px;
 }
 .logo{
 	
 	padding: 15px 200px 30px 70px;
-	object-fit: contain;
+	
 
 }
 .navbar1{
@@ -127,6 +199,8 @@ img{
 .navbar1 ul{
 	display: flex;
 	list-style: none;
+	margin-left: 250px;
+	margin-top: -50px;
 
 }
 .navbar1 ul li{
@@ -134,24 +208,37 @@ img{
 	font-weight: normal;
 	font-style: normal;
 	text-decoration: none;
-	padding: 0 25px 0 25px;
+	padding: 0 25px 0 15px;
+	padding-left: 30px;
 }
 .navbar1 ul li a{
 	color: white;
 }
+.navbar1 ul li a:hover{
+	background-color: #006072;
+	border-radius: 30px;
+}
 p{
-	background-color: black;
 	color: white;
-	text-align: center;
+	margin-top: 30px;
+	margin-left: 470px;
+	font-size: 15px;
 }
-.padded{
-	margin-top: 14px;
-	color: black;
 
-}
 .ul-li{
 
 	padding-top: 10px;
 	list-style-image: url("assets/right-arrow.png");
 	text-align: left;
+}
+
+
+/* media quaries */
+
+@media( max-width: 200px){
+
+	
+	
+	
+	
 }
