@@ -22,7 +22,7 @@
 
 			<!-- modal-->
 
-		<div class="modal "   id="modalForm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal" id="modalForm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -30,15 +30,15 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                       <form action="#">
+                       <form action="homecon.php" method="post">
                         <div class="mb-3 form-group icon-textbox" id="email">
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email" title="Email">
+                            <input type="email" name="Email" class="form-control" id="exampleFormControlInput1" placeholder="Email" title="Email">
                           	
                         </div>
                         <div class="mb-3 form-group icon-textbox">
-                            <input type="password" class="form-control" id="exampleFormControlInput2"
+                            <input type="password" name="Password" class="form-control" id="exampleFormControlInput2"
                                 placeholder="Password" title="Password">
-                           
+                          
                         </div>
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
@@ -46,10 +46,10 @@
                                 Remember Me
                             </label>
                         </div>
-                        <button type="but-login" class="btn-login"> Login</button>
+                        <button type="but-login" class="btn-login" name="login"> Login</button>
                          <div class="text-center mb-2"><a href="#" data-bs-toggle="modal"
                             data-bs-target="#Modalform" data-bs-dismiss="modal" title="Forgot Password">Forgot Password?</a></div>
-                        <div class="text-center" style="color: black;">Don't have an account? <a href="createacc.html">Create an account</a></div>
+                        <div class="text-center" style="color: black;">Don't have an account? <a href="createacc.php">Create an account</a></div>
                     </form>
                     </div>
                 </div>
@@ -67,14 +67,14 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form action="#">
+                    <form action="mail.php" method="post">
                         <div class="mb-3 form-group icon-textbox">
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email" title="Email ">
-                           <!-- <img alt="email" src="image/user.png">-->
+                            <input type="email" name="Email" class="form-control" id="exampleFormControlInput1" placeholder="Email" title="Email">
+                           
                         </div>
-                         <button type="but-login" class="btn-login"> Login</button>
-                       <!--  <button class="submit-button mb-3" type="submit" title="Login">Login</button> -->
-                        <div class="text-center mb-2"><a href="#" data-bs-toggle="modal"
+                         <button type="Submit"  name="Send"  class="btn-login">Send</button>
+                       
+                        <div class="text-center mb-2"><a href="home.php" data-bs-toggle="modal"
                             data-bs-target="#Modalform" data-bs-dismiss="modal" title="Login Now">Login now</a>
                         </div>
                     </form>
@@ -104,7 +104,7 @@
 							<li><a href="contact.php" title="contact">Contact us</a></li>
 							
         					<li><a href="#"  data-bs-toggle="modal" data-bs-target="#modalForm">login</a></li>
-							<li><a href=" service.php" title="Become a Helper" class="nav_btn">Become a Helper</a></li>
+							<li><a href="service.php" title="Become a Helper" class="nav_btn">Become a Helper</a></li>
 							
 						</ul>
 					</div>
@@ -116,7 +116,7 @@
 							<h1>Do not feel like housework?</h1>
 							<h5>Great! Book now for Helperland and enjoy the benefits</h5>
 							<p class="" style="margin-left: 30px; margin-top: 23px;" >
-								<span><img src="assets/image/ic-check.png"  ></span> Certified & insured helper<br>
+								<span><img src="assets/image/ic-check.png"></span> Certified & insured helper<br>
 								<span><img src="assets/image/ic-check.png"></span>easy booking procedure<br>
 								<span><img src="assets/image/ic-check.png"></span>friendly Customer  service<br>
 								<span><img src="assets/image/ic-check.png"></span>Secure online payment method<br>
@@ -216,32 +216,7 @@
 					</div>
 
 					
-						<!-- <div class="col"><h2>Our Blog</h2></div> -->
-					
-					<!-- <div class="row-blog">
-						<div class="">
-							<img src="assets/image/group-28.png">
-							<p style="color:#3D4046 ; font-size: 20px;font-weight: bolder;">Lorem ipsum dolor sit amet</p>
-							<p style="color:#A3A3A3">January 28, 2019</p>
-							<p style="color:#565656">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum metus pulvinar aliquet.</p>
-							<p style="font-size: 18px ;color:#4F4F4F">Read the Post<span ><img src="assets/image/shape-2.png" alt="arrow"></span></p>
-						</div>
-						<div class="">
-							<img src="assets/image/group-29.png">
-							<p style="color:#3D4046 ; font-size: 20px;font-weight: bolder;">Lorem ipsum dolor sit amet</p>
-							<p style="color:#A3A3A3">January 28, 2019</p>
-							<p style="color:#565656">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum metus pulvinar aliquet.</p>
-							<p style="font-size: 18px ;color:#4F4F4F">Read the Post<span ><img src="assets/image/shape-2.png" alt="arrow"></span></p>
-						</div>
-						<div class="">
-							<img src="assets/image/group-30.png">
-							<p style="color:#3D4046 ; font-size: 20px;font-weight: bolder;">Lorem ipsum dolor sit amet</p>
-							<p style="color:#A3A3A3">January 28, 2019</p>
-							<p style="color:#565656">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum metus pulvinar aliquet.</p>
-							<p style="font-size: 18px ;color:#4F4F4F">Read the Post<span ><img src="assets/image/shape-2.png" alt="arrow"></span></p>
-						</div>
-					</div> -->
-					
+						
 				</div>
 			</div>
 
